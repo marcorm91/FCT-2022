@@ -1,0 +1,32 @@
+.cmp-devoluciones{
+    h2{
+        color: #656D70;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    width: 500px;
+   table{
+       box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+       width: 500px;
+       border: 1px solid lightgray;
+       border-radius: 5px;
+       border-collapse: collapse;
+    
+       thead{
+           background-color: lightgrey;
+        
+       }
+
+        th, td{
+           padding: 10px;
+           text-align: center;
+        }
+   }
+   h4{
+       text-align: right;
+   }
+   a{
+       color: #656D70;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       text-decoration: none;
+   }
+}

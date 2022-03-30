@@ -1,0 +1,22 @@
+.cmp-pedidos {
+  width: 500px; }
+  .cmp-pedidos h2 {
+    color: #656D70;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+  .cmp-pedidos table {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 500px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    border-collapse: collapse; }
+    .cmp-pedidos table thead {
+      background-color: lightgrey; }
+    .cmp-pedidos table th, .cmp-pedidos table td {
+      padding: 10px;
+      text-align: center; }
+  .cmp-pedidos h4 {
+    text-align: right; }
+  .cmp-pedidos a {
+    color: #656D70;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none; }
