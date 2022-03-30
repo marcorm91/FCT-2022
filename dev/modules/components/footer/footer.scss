@@ -1,5 +1,5 @@
 @import "../../../_scss/variables/colors";
-footer {
+.cmp-footer {
     display: flex;
     background: map-get($colors, bida-informacion);
     justify-content: flex-end;
