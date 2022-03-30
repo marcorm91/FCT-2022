@@ -14,7 +14,7 @@
       display: flex;
       margin-left: 50px;
       height: 30px;
-      background-color: #FCF7F6;
+      background-color: #ffffff;
       opacity: 0.9; }
       .cmp-title header .buscador .divbuscador .imgbuscador {
         filter: invert(0);
@@ -25,7 +25,7 @@
       .cmp-title header .buscador .divbuscador input {
         height: 15px;
         margin-top: 3px;
-        background-color: #FCF7F6;
+        background-color: #ffffff;
         border: none;
         padding: 5px; }
     .cmp-title header .buscador .iconmenu {
@@ -36,7 +36,7 @@
       width: 30px;
       height: 30px; }
   .cmp-title header .redicon {
-    background: red;
+    background: #ff533d;
     padding: 7px;
     box-sizing: border-box;
     border-radius: 100%;
@@ -45,12 +45,12 @@
     color: white; }
     .cmp-title header .redicon.carrito {
       position: absolute;
-      top: 10px;
-      right: 140px;
+      top: 5px;
+      right: 135px;
       z-index: 100; }
     .cmp-title header .redicon.campana {
       position: absolute;
-      top: 10px;
+      top: 5px;
       right: 85px;
       z-index: 100; }
     .cmp-title header .redicon.sinNotificacion {

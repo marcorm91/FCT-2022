@@ -1,32 +1,37 @@
+@import "../../../_scss/variables/colors";
+
 .cmp-pedidos{
     h2{
-        color: #656D70;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:map-get($colors,black-2);
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
     width: 500px;
    table{
        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
        width: 500px;
-       border: 1px solid lightgray;
+       border: 1px solid  map-get($colors,bida-thead);
        border-radius: 5px;
        border-collapse: collapse;
     
        thead{
-           background-color: lightgrey;
+           background-color: map-get($colors,bida-thead);
         
        }
-
+       th{
+        opacity: 0.5;
+    }
         th, td{
            padding: 10px;
            text-align: center;
         }
    }
    h4{
+        margin-top: 10px;
        text-align: right;
    }
    a{
-       color: #656D70;
-       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       color:map-get($colors,black-3);
        text-decoration: none;
    }
 }

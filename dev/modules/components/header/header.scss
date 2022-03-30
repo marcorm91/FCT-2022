@@ -1,8 +1,9 @@
+@import "../../../_scss/variables/colors";
 
 .cmp-title{
     header {
         box-sizing: border-box;
-        background-color: #bcd042;
+        background-color: map-get($colors,bida-header);
         padding:10px;
         display:flex;
         justify-content:space-between;
@@ -18,7 +19,7 @@
                 margin-left: 50px;
                 
                 height: 30px;
-                background-color: #FCF7F6;
+                background-color: map-get($colors,white);
                 opacity: 0.9;   
                 .imgbuscador{
                     filter: invert(0);
@@ -33,7 +34,7 @@
                 
                 height: 15px;
                 margin-top: 3px;
-                background-color: #FCF7F6;
+                background-color:map-get($colors,white);
                 border: none;  
                         
                 padding: 5px;    
@@ -51,7 +52,7 @@
                }
             }
             .redicon{
-                background: red;
+                background:map-get($colors,bida-redNotification);
                 padding:7px;
                 box-sizing: border-box;
                 border-radius: 100%;
@@ -61,13 +62,13 @@
             
             &.carrito{
                 position: absolute;
-                top: 10px;
-                right: 140px;
+                top: 5px;
+                right: 135px;
                 z-index: 100;
             }
             &.campana{
                 position: absolute;
-                top: 10px;
+                top: 5px;
                 right: 85px;
                 z-index: 100;
             }

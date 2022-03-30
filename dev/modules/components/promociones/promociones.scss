@@ -1,3 +1,5 @@
+@import "../../../_scss/variables/colors";
+
 .cmp-tarjeta{
     .tarjeta{
         display: flex;
@@ -18,37 +20,38 @@
 
         .descuento{
             top: 20px;
-            right: 982px;
+            right: 990px;
             z-index: 100;
             height: 50px;
             width: 110px;
-            background-color: #D9860B;
+            background-color:map-get($colors,bida-tarjetaNaranjaFondo);
             position: absolute;
             align-items: flex-end;
             div{
                
-                position: absolute;
+                position: relative;
                 margin-left: 10%;
                 width: 90%;
                 height: 100%;
-                background-color: #F0A801;
+                background-color:map-get($colors,bida-tarjetaNaranja);
                 text-align: left;
                 padding-left: 10px;
-                color: white;
+                color: map-get($colors,white);
                 p{
+                    
                     font-size: 10px;
                 }
                 h3{
-                    font-size: 25px;
+                    font-size: 20px;
                     color: white;
                     position: absolute;
-                   top: -2px;
+                   top: 20px;
                 }
             }
         }
         .SelectUnidades{
             width: 200px;
-            background-color: rebeccapurple;
+           
             
         }
     }

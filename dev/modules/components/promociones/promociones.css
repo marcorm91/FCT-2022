@@ -14,29 +14,28 @@
     text-align: justify; }
   .cmp-tarjeta .tarjeta .descuento {
     top: 20px;
-    right: 982px;
+    right: 990px;
     z-index: 100;
     height: 50px;
     width: 110px;
-    background-color: #D9860B;
+    background-color: #e19700;
     position: absolute;
     align-items: flex-end; }
     .cmp-tarjeta .tarjeta .descuento div {
-      position: absolute;
+      position: relative;
       margin-left: 10%;
       width: 90%;
       height: 100%;
-      background-color: #F0A801;
+      background-color: #f6a500;
       text-align: left;
       padding-left: 10px;
-      color: white; }
+      color: #ffffff; }
       .cmp-tarjeta .tarjeta .descuento div p {
         font-size: 10px; }
       .cmp-tarjeta .tarjeta .descuento div h3 {
-        font-size: 25px;
+        font-size: 20px;
         color: white;
         position: absolute;
-        top: -2px; }
+        top: 20px; }
   .cmp-tarjeta .tarjeta .SelectUnidades {
-    width: 200px;
-    background-color: rebeccapurple; }
+    width: 200px; }
