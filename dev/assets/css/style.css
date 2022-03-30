@@ -1,3 +1,6 @@
+.cmp-home {
+  margin: 16px;
+}
 nav {
   background: #254369;
   width: 50px;
@@ -141,13 +144,9 @@ footer p {
   display: flex;
   justify-content: flex-end;
   margin-right: 20px;
-
 }
 .cmp-title h1 {
   font-family: "OpenSans-Light";
   color: #3b3e47;
   font-size: 24px;
-}
-.cmp-home {
-  margin: 16px;
 }
