@@ -1,33 +1,11 @@
 .cmp-devoluciones {
-  width: 500px;
+  width: 617px;
 }
 
 .cmp-devoluciones h2 {
   color: #333333;
   margin-bottom: 10px;
   margin-top: 10px;
-}
-
-.cmp-devoluciones table {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 500px;
-  border: 1px solid #ececec;
-  border-radius: 1px;
-  border-collapse: collapse;
-}
-
-.cmp-devoluciones table thead {
-  background-color: #ececec;
-}
-
-.cmp-devoluciones table th {
-  opacity: 0.5;
-}
-
-.cmp-devoluciones table th,
-.cmp-devoluciones table td {
-  padding: 10px;
-  text-align: center;
 }
 
 .cmp-devoluciones h4 {
@@ -39,16 +17,55 @@
   color: #4a4a4a;
   text-decoration: none;
 }
-footer {
+
+.cmp-devoluciones .ContenedorPrincipal {
   display: flex;
-  background: #bcd042;
-  justify-content: flex-end;
-  height: 30px;
+  width: 617px;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-footer p {
-  margin-right: 10px;
-  margin-top: 10px;
+.cmp-devoluciones .ContenedorPrincipal .cabecera {
+  background-color: #ececec;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 1px;
+  text-align: center;
+  height: 43px;
+}
+
+.cmp-devoluciones .ContenedorPrincipal .cabecera h2 {
+  opacity: 0.5;
+  margin-top: 14px;
+  margin-left: 10px;
+  margin-right: 78px;
+  font-size: 13px;
+}
+
+.cmp-devoluciones .ContenedorPrincipal .cuerpo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cmp-devoluciones .ContenedorPrincipal .cuerpo .DatosColumn {
+  width: 100%;
+  height: auto;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+.cmp-devoluciones .ContenedorPrincipal .cuerpo .DatosColumn ul {
+  font-size: 12px;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.cmp-devoluciones .ContenedorPrincipal .cuerpo .DatosColumn ul li {
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 .cmp-title header {
   box-sizing: border-box;
@@ -132,6 +149,17 @@ footer p {
   filter: invert(1);
   width: 30px;
   height: 30px;
+}
+footer {
+  display: flex;
+  background: #bcd042;
+  justify-content: flex-end;
+  height: 30px;
+}
+
+footer p {
+  margin-right: 10px;
+  margin-top: 10px;
 }
 nav {
   background: #254369;
@@ -267,45 +295,75 @@ nav ul.navegador li .navegador-opcion img {
   margin-right: 20px;
 }
 .cmp-pedidos {
-  width: 500px;
+  width: 610px;
 }
 
 .cmp-pedidos h2 {
+  font-size: 21px;
   color: #333333;
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
-.cmp-pedidos table {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 500px;
-  border: 1px solid #ececec;
-  border-radius: 5px;
-  border-collapse: collapse;
-}
-
-.cmp-pedidos table thead {
-  background-color: #ececec;
-}
-
-.cmp-pedidos table th {
-  opacity: 0.5;
-}
-
-.cmp-pedidos table th,
-.cmp-pedidos table td {
-  padding: 10px;
-  text-align: center;
-}
-
 .cmp-pedidos h4 {
-  margin-top: 10px;
-  text-align: right;
+  margin-top: 30px;
+  text-align: end;
 }
 
 .cmp-pedidos a {
+  font-size: 14px;
   color: #4a4a4a;
   text-decoration: none;
+}
+
+.cmp-pedidos .ContenedorPrincipal {
+  display: flex;
+  width: 617px;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cmp-pedidos .ContenedorPrincipal .cabecera {
+  background-color: #ececec;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 1px;
+  text-align: center;
+  height: 43px;
+}
+
+.cmp-pedidos .ContenedorPrincipal .cabecera h2 {
+  opacity: 0.5;
+  margin-top: 14px;
+  margin-left: 10px;
+  margin-right: 78px;
+  font-size: 13px;
+}
+
+.cmp-pedidos .ContenedorPrincipal .cuerpo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cmp-pedidos .ContenedorPrincipal .cuerpo .DatosColumn {
+  width: 100%;
+  height: auto;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+.cmp-pedidos .ContenedorPrincipal .cuerpo .DatosColumn ul {
+  font-size: 12px;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.cmp-pedidos .ContenedorPrincipal .cuerpo .DatosColumn ul li {
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 .cmp-tarjeta .tarjeta {
   display: flex;
