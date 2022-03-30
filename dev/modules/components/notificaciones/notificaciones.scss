@@ -7,52 +7,59 @@
         font-size: 21px;
         font-weight: bold;
     }
-    .notificacion {
+    ul {
         display: flex;
-        margin-bottom: 10px;
-        -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.45);
-        -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.45);
-        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.45);
-        &.active {
-            background: map-get($colors, bida-seleccionado);
-        }
-        .notificacion-advertencia {
+        flex-direction: column;
+        list-style: none;
+        margin-block-start: 0;
+        padding-inline-start: 0;
+        .notificacion {
             display: flex;
-            background-color: map-get($colors, bida-advertencia);
-            width: 40px;
-            height: 40px;
-            img {
-                width: 20px;
-                height: 20px;
-                margin-left: 10px;
-                margin-top: 10px;
-                filter: invert(1);
+            margin-bottom: 10px;
+            -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.45);
+            -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.45);
+            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.45);
+            &.active {
+                background: map-get($colors, bida-seleccionado);
             }
-        }
-        .notificacion-informacion {
-            display: flex;
-            background: map-get($colors, bida-informacion);
-            width: 40px;
-            height: 40px;
-            img {
-                width: 20px;
-                height: 20px;
-                margin-left: 10px;
-                margin-top: 10px;
-                filter: invert(1);
+            .notificacion-advertencia {
+                display: flex;
+                background-color: map-get($colors, bida-advertencia);
+                width: 40px;
+                height: 40px;
+                img {
+                    width: 20px;
+                    height: 20px;
+                    margin-left: 10px;
+                    margin-top: 10px;
+                    filter: invert(1);
+                }
             }
-        }
-        .notificacion-texto {
-            display: flex;
-            flex-direction: column;
-            margin-left: 5px;
-            p {
-                margin-block-start: 0px;
-                margin-block-end: 0px;
-                size: 14px;
+            .notificacion-informacion {
+                display: flex;
+                background: map-get($colors, bida-informacion);
+                width: 40px;
+                height: 40px;
+                img {
+                    width: 20px;
+                    height: 20px;
+                    margin-left: 10px;
+                    margin-top: 10px;
+                    filter: invert(1);
+                }
             }
-            .notificacion-texto-informacion {
-                font-weight: bold;
+            .notificacion-texto {
+                display: flex;
+                flex-direction: column;
+                margin-left: 5px;
+                p {
+                    margin-block-start: 0px;
+                    margin-block-end: 0px;
+                    size: 14px;
+                }
+                .notificacion-texto-informacion {
+                    font-weight: bold;
+                }
             }
         }
     }
