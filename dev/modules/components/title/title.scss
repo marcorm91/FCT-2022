@@ -1,0 +1,9 @@
+@import "../../../_scss/variables/colors";
+
+.cmp-title{
+    h1{
+        font-family: "OpenSans-Light";
+        color: map-get($colors, bida-grey);
+        font-size: 24px;
+    } 
+}
