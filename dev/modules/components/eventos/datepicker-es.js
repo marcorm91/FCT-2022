@@ -43,7 +43,3 @@
     return datepicker.regional.es;
 
 });
-$(function() {
-    $.datepicker.setDefaults($.datepicker.regional['es']);
-    $("#datepicker").datepicker();
-});

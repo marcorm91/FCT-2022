@@ -1,4 +1,4 @@
-nav {
+.cmp-nav {
   background: #254369;
   width: 50px;
   height: 1958px;
@@ -6,16 +6,16 @@ nav {
   display: flex;
   flex-direction: column;
   margin-top: 10px; }
-  nav input {
+  .cmp-nav input {
     display: none; }
-  nav label {
+  .cmp-nav label {
     width: 20px;
     margin-top: 20px;
     margin-left: 15px; }
-    nav label img {
+    .cmp-nav label img {
       width: 20px;
       filter: invert(1); }
-  nav ul.navegador {
+  .cmp-nav ul.navegador {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -23,12 +23,12 @@ nav {
     list-style: none;
     margin-top: 20px;
     padding-left: 15px; }
-    nav ul.navegador li {
+    .cmp-nav ul.navegador li {
       display: flex;
       margin-bottom: 10px; }
-      nav ul.navegador li .navegador-opcion {
+      .cmp-nav ul.navegador li .navegador-opcion {
         display: flex; }
-        nav ul.navegador li .navegador-opcion img {
+        .cmp-nav ul.navegador li .navegador-opcion img {
           width: 20px;
           margin-right: 40px;
           margin-bottom: 10px;
