@@ -1,3 +1,25 @@
+.cmp-eventos {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+}
+
+.cmp-eventos .eventos-titulo {
+  font-size: 21px;
+}
+
+.cmp-eventos #datepicker {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cmp-eventos .eventos-vertodo {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
 .cmp-nav {
   background: #254369;
   width: 50px;
@@ -61,28 +83,6 @@
   max-height: 20px;
   filter: invert(1);
 }
-.cmp-eventos {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-  height: 300px;
-}
-
-.cmp-eventos .eventos-titulo {
-  font-size: 21px;
-}
-
-.cmp-eventos #datepicker {
-  display: flex;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.cmp-eventos .eventos-vertodo {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 20px;
-}
 .cmp-footer {
   display: flex;
   background: #bcd042;
@@ -93,6 +93,11 @@
 .cmp-footer p {
   margin-right: 10px;
   margin-top: 10px;
+}
+.cmp-title h1 {
+  font-family: "OpenSans-Light";
+  color: #3b3e47;
+  font-size: 24px;
 }
 .cmp-notificaciones {
   display: flex;
@@ -110,6 +115,7 @@
   flex-direction: column;
   list-style: none;
   margin-block-start: 0;
+  margin-top: 10px;
   padding-inline-start: 0;
 }
 
@@ -175,11 +181,6 @@
   display: flex;
   justify-content: flex-end;
   margin-right: 20px;
-}
-.cmp-title h1 {
-  font-family: "OpenSans-Light";
-  color: #3b3e47;
-  font-size: 24px;
 }
 .cmp-home {
   margin: 16px;
