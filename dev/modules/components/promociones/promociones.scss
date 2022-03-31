@@ -1,0 +1,58 @@
+@import "../../../_scss/variables/colors";
+
+.cmp-tarjeta{
+    .tarjeta{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        img{
+            width: 300px;
+            height: 180px;
+        }
+        .textoTarjeta{
+            display: flex;
+            flex-direction: column;
+            margin-left: 10px;
+            margin-right: 30px;
+            text-align: justify;
+        }
+
+        .descuento{
+            top: 20px;
+            right: 990px;
+            z-index: 100;
+            height: 50px;
+            width: 110px;
+            background-color:map-get($colors,bida-tarjetaNaranjaFondo);
+            position: absolute;
+            align-items: flex-end;
+            div{
+               
+                position: relative;
+                margin-left: 10%;
+                width: 90%;
+                height: 100%;
+                background-color:map-get($colors,bida-tarjetaNaranja);
+                text-align: left;
+                padding-left: 10px;
+                color: map-get($colors,white);
+                p{
+                    
+                    font-size: 10px;
+                }
+                h3{
+                    font-size: 20px;
+                    color: white;
+                    position: absolute;
+                   top: 20px;
+                }
+            }
+        }
+        .SelectUnidades{
+            width: 200px;
+           
+            
+        }
+    }
+}

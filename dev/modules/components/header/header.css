@@ -1,0 +1,62 @@
+.cmp-title header {
+  box-sizing: border-box;
+  background-color: #bcd042;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  height: 50px;
+  margin-bottom: 12px; }
+  .cmp-title header .buscador {
+    display: flex;
+    justify-content: space-between; }
+    .cmp-title header .buscador .divbuscador {
+      display: flex;
+      margin-left: 50px;
+      height: 30px;
+      background-color: #ffffff;
+      opacity: 0.9; }
+      .cmp-title header .buscador .divbuscador .imgbuscador {
+        filter: invert(0);
+        width: 15px;
+        height: 15px;
+        margin-left: 8px;
+        margin-top: 8px; }
+      .cmp-title header .buscador .divbuscador input {
+        height: 15px;
+        margin-top: 3px;
+        background-color: #ffffff;
+        border: none;
+        padding: 5px; }
+    .cmp-title header .buscador .iconmenu {
+      filter: invert(1);
+      margin-right: 14px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      width: 30px;
+      height: 30px; }
+  .cmp-title header .redicon {
+    background: #ff533d;
+    padding: 7px;
+    box-sizing: border-box;
+    border-radius: 100%;
+    font-size: 10px;
+    font-weight: bold;
+    color: white; }
+    .cmp-title header .redicon.carrito {
+      position: absolute;
+      top: 5px;
+      right: 135px;
+      z-index: 100; }
+    .cmp-title header .redicon.campana {
+      position: absolute;
+      top: 5px;
+      right: 85px;
+      z-index: 100; }
+    .cmp-title header .redicon.sinNotificacion {
+      display: none; }
+  .cmp-title header img {
+    margin-right: 20px;
+    filter: invert(1);
+    width: 30px;
+    height: 30px; }
