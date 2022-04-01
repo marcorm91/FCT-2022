@@ -1,19 +1,10 @@
-.cmp-eventos .eventos-titulo {
-  font-size: 21px;
-}
-
 .cmp-eventos #datepicker {
   display: flex;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.cmp-eventos .eventos-vertodo {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 20px;
-}
-.cmp-nav {
+
   background: #254369;
   width: 50px;
   height: 1958px;
@@ -153,8 +144,4 @@
   display: flex;
   justify-content: flex-end;
   margin-right: 20px;
-}
-
-.cmp-home {
-  margin: 16px;
 }

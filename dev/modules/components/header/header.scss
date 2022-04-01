@@ -1,6 +1,18 @@
 @import "../../../_scss/variables/colors";
 
 .cmp-title{
+    @media (max-width: 1000px){
+        header{
+                /* Reverse the axis of the header, making it vertical. */
+                flex-direction: column;
+                
+                /* Align items to the begining (the left) of the header. */
+                align-items: flex-start;
+        }
+        .iconos{
+            width: 100%;
+        }
+}
     header {
         box-sizing: border-box;
         background-color: map-get($colors,bida-header);
@@ -10,6 +22,10 @@
         font-size:20px;
         height:50px;
         margin-bottom:12px;
+        width: 100%;
+        
+
+     
           .buscador{
             display:flex;
             justify-content: space-between;
@@ -40,7 +56,15 @@
                 padding: 5px;    
             }
         }
- 
+           
+            }
+
+            .iconos{
+                background-color: map-get($colors,bida-header);
+                display: flex;
+                padding: 10px;
+                float: right;
+            
                .iconmenu{
                 filter: invert(1);
                  margin-right:14px;
@@ -50,7 +74,6 @@
                  width:30px;
                  height:30px;
                }
-            }
             .redicon{
                 background:map-get($colors,bida-redNotification);
                 padding:7px;
@@ -75,7 +98,8 @@
             &.sinNotificacion{
                 display: none;
             }
-      }
+      }}
+    
         img{    
                  margin-right:20px;
                  filter: invert(1);
