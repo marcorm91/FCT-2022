@@ -20,7 +20,7 @@
                 height: 50px;
                 width: 110px;
                 position: absolute;
-                margin-left: 179px;
+                margin-left: 190px;
                 margin-top: 20px;
 
                 .descuento{
@@ -31,6 +31,8 @@
                     background-color:map-get($colors,bida-tarjetaNaranjaFondo) ;
                     position: absolute;
                     align-items: flex-end;
+                    word-wrap: break-word;
+                    overflow: hidden;
                     div{
                         box-sizing: border-box;
                         position: relative;
@@ -38,10 +40,11 @@
                         width: 100%;
                         height: 100%;
                         background-color:map-get($colors,bida-tarjetaNaranja);
-                        text-align: left;
+                        
                         padding-left: 10px;
                         padding-top: 10px;
                         color: map-get($colors,white);
+                   
                         p{
                             
                             font-size: 10px;
