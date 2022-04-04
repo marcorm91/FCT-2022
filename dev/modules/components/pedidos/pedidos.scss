@@ -26,7 +26,7 @@
        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 
        .cabecera{
-           background-color: map-get($colors,bida-thead);
+           background-color: map-get($colors,bida-whiteGrey);
            display: flex;
            flex-direction: row;
            justify-content: space-between;
