@@ -36,7 +36,7 @@
         showMonthAfterYear: false,
         yearSuffix: "",
         showOtherMonths: true,
-        selectOtherMonths: true
+        selectOtherMonths: true,
     };
     datepicker.setDefaults(datepicker.regional.es);
 

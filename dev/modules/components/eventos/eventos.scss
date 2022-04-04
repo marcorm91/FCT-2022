@@ -1,19 +1,127 @@
+@import url(../../../_scss/utilities/_fonts.scss);
 .cmp-eventos {
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 300px;
+    font-family: 'OpenSans-Regular';
+    width: 295px;
+    height: 276px;
     .eventos-titulo {
+        width: 77px;
+        height: 26px;
+        margin-bottom: 10px;
         font-size: 21px;
+        line-height: 1.24;
     }
     #datepicker {
         display: flex;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        width: 295px;
+        height: 276px;
+        margin: 0 0 20px;
+        border-radius: 1px;
     }
     .eventos-vertodo {
         display: flex;
         justify-content: flex-end;
         margin-right: 20px;
+        margin-top: 30px;
     }
+}
+
+//Cosas del calendario
+.ui-widget {
+    font-family: 'OpenSans-Regular';
+}
+
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+    border: none;
+    background: #ffffff;
+    color: #000000;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-right,
+.ui-corner-br {
+    border-bottom-right-radius: 0;
+}
+
+.ui-datepicker {
+    padding: 0;
+}
+
+.ui-datepicker .ui-datepicker-header {
+    margin-bottom: 5px;
+}
+
+.ui-datepicker-month {
+    text-transform: capitalize;
+}
+
+.ui-datepicker-year {
+    display: none;
+}
+
+.ui-datepicker {
+    .ui-datepicker-week-end {
+        opacity: 0.5;
+    }
+}
+
+.ui-datepicker th {
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+.ui-datepicker td {
+    position: relative;
+}
+
+.ui-datepicker td:before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+}
+
+.ui-datepicker td:after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: green;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 10px;
+    margin: auto;
+    bottom: 0;
+}
+
+.ui-datepicker .ui-datepicker-current-day a {
+    font-weight: bold;
+}
+
+​ .ui-datepicker .ui-datepicker-prev {
+    display: block;
+}
+
+.ui-datepicker .ui-datepicker-next {
+    display: block;
 }

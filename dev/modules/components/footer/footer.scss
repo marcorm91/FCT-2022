@@ -2,10 +2,10 @@
 .cmp-footer {
     display: flex;
     background: map-get($colors, bida-informacion);
-    justify-content: flex-end;
     height: 30px;
     p {
-        margin-right: 10px;
-        margin-top: 10px;
+        margin-left: 80%;
+        margin-top: 5px;
+        color: white;
     }
 }
