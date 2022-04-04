@@ -1,7 +1,7 @@
 @import "../../../_scss/variables/colors";
 .cmp-footer {
     display: flex;
-    background: map-get($colors, bida-informacion);
+    background: map-get($colors, bida-green);
     height: 30px;
     p {
         margin-left: 80%;

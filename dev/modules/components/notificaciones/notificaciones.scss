@@ -22,11 +22,11 @@
             -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.45);
             box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.45);
             &.active {
-                background: map-get($colors, bida-seleccionado);
+                background: map-get($colors, bida-creamyellow);
             }
             .notificacion-advertencia {
                 display: flex;
-                background-color: map-get($colors, bida-advertencia);
+                background-color: map-get($colors, bida-fuchsia);
                 min-width: 40px;
                 align-items: center;
                 justify-content: center;
@@ -38,7 +38,7 @@
             }
             .notificacion-informacion {
                 display: flex;
-                background: map-get($colors, bida-informacion);
+                background: map-get($colors, bida-yellow);
                 width: 40px;
                 height: 40px;
                 img {

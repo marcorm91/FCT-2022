@@ -15,7 +15,7 @@
 }
     header {
         box-sizing: border-box;
-        background-color: map-get($colors,bida-header);
+        background-color: map-get($colors,bida-green);
         padding:10px;
         display:flex;
         justify-content:space-between;
@@ -60,7 +60,7 @@
             }
 
             .iconos{
-                background-color: map-get($colors,bida-header);
+                background-color: map-get($colors,bida-green);
                 display: flex;
                
                 float: right;
@@ -75,7 +75,7 @@
                  height:30px;
                }
             .redicon{
-                background:map-get($colors,bida-redNotification);
+                background:map-get($colors,bida-red);
                 padding:5px;
                 box-sizing: border-box;
                 border-radius: 100%;
