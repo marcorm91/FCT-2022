@@ -26,14 +26,6 @@
     .cmp-nav ul.navegador li {
       display: flex;
       margin-bottom: 10px; }
-      .cmp-nav ul.navegador li .navegador-enlace {
-        display: flex;
-        margin-top: 5px;
-        margin-right: 20px; }
-        .cmp-nav ul.navegador li .navegador-enlace a {
-          text-decoration: none;
-          color: white;
-          display: none; }
       .cmp-nav ul.navegador li .navegador-opcion {
         display: flex; }
         .cmp-nav ul.navegador li .navegador-opcion img {
