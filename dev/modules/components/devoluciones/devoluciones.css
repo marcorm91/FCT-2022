@@ -1,0 +1,66 @@
+.cmp-devoluciones {
+  width: 617px; }
+  .cmp-devoluciones h2 {
+    font-size: 21px;
+    color: #333333;
+    margin-bottom: 10px;
+    margin-top: 10px; }
+  .cmp-devoluciones h4 {
+    margin-top: 30px;
+    text-align: end; }
+  .cmp-devoluciones a {
+    font-size: 14px;
+    color: #4a4a4a;
+    text-decoration: none; }
+  .cmp-devoluciones .ContenedorPrincipal {
+    display: flex;
+    width: 617px;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
+    .cmp-devoluciones .ContenedorPrincipal .cabecera {
+      background-color: #ececec;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      border-radius: 1px;
+      text-align: center;
+      height: 43px; }
+      .cmp-devoluciones .ContenedorPrincipal .cabecera h2 {
+        opacity: 0.5;
+        margin-top: 14px;
+        margin-left: 25px;
+        margin-right: 78px;
+        font-size: 13px; }
+    .cmp-devoluciones .ContenedorPrincipal .cuerpo {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%; }
+      .cmp-devoluciones .ContenedorPrincipal .cuerpo .DatosColumn {
+        width: 100%;
+        height: auto;
+        word-wrap: break-word;
+        overflow: hidden;
+        display: inline;
+        margin-top: 10px;
+        margin-bottom: 10px; }
+        .cmp-devoluciones .ContenedorPrincipal .cuerpo .DatosColumn ul {
+          font-size: 12px;
+          display: flex;
+          flex-direction: row; }
+          .cmp-devoluciones .ContenedorPrincipal .cuerpo .DatosColumn ul .item {
+            margin-right: 76px;
+            margin-left: 22px;
+            margin-top: 10px;
+            display: inline; }
+          .cmp-devoluciones .ContenedorPrincipal .cuerpo .DatosColumn ul .itemEnd {
+            margin-left: 25px;
+            margin-top: 10px;
+            display: inline; }
+          .cmp-devoluciones .ContenedorPrincipal .cuerpo .DatosColumn ul li {
+            margin-top: 20px;
+            margin-bottom: 15px;
+            display: inline; }
+            .cmp-devoluciones .ContenedorPrincipal .cuerpo .DatosColumn ul li div {
+              display: flex;
+              flex-direction: column; }
