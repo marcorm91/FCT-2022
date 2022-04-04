@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .cmp-eventos {
   display: flex;
   flex-direction: column;
@@ -9,18 +10,15 @@
   font-size: 21px;
 }
 
+=======
+>>>>>>> a85a95fe463d468e1d790002d5cdc41112622b3b
 .cmp-eventos #datepicker {
   display: flex;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.cmp-eventos .eventos-vertodo {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 20px;
-}
-.cmp-nav {
+
   background: #254369;
   width: 50px;
   height: 1958px;
@@ -153,6 +151,7 @@
   display: flex;
   justify-content: flex-end;
   margin-right: 20px;
+<<<<<<< HEAD
 }
 .cmp-title h1 {
   font-family: "OpenSans-Light";
@@ -172,4 +171,6 @@
 .cmp-footer p {
   margin-right: 10px;
   margin-top: 10px;
+=======
+>>>>>>> a85a95fe463d468e1d790002d5cdc41112622b3b
 }
