@@ -1036,7 +1036,11 @@ html .ui-button.ui-state-disabled:hover,
 html .ui-button.ui-state-disabled:active {
     margin-right: 10px;
     font-weight: normal;
+<<<<<<< HEAD
+    color: #454545;
+=======
     color: #454545
+>>>>>>> 256d35a9b1c445dcf9519b998bcc4ae05ca23b3e
 }
 
 .ui-state-default a,
@@ -1058,7 +1062,10 @@ a:visited.ui-button,
 .ui-widget-header .ui-state-focus,
 .ui-button:hover,
 .ui-button:focus {
+<<<<<<< HEAD
+=======
     background: #ededed;
+>>>>>>> 256d35a9b1c445dcf9519b998bcc4ae05ca23b3e
     font-weight: normal;
     color: #2b2b2b
 }

@@ -28,23 +28,42 @@
       .cmp-pedidos .ContenedorPrincipal .cabecera h2 {
         opacity: 0.5;
         margin-top: 14px;
-        margin-left: 10px;
+        margin-left: 25px;
         margin-right: 78px;
         font-size: 13px; }
     .cmp-pedidos .ContenedorPrincipal .cuerpo {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: space-between;
-      width: 100%; }
+      width: 100%;
+      align-items: stretch; }
       .cmp-pedidos .ContenedorPrincipal .cuerpo .DatosColumn {
         width: 100%;
         height: auto;
-        word-wrap: break-word;
-        overflow: hidden; }
+        overflow-wrap: break-word;
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        flex-direction: row; }
         .cmp-pedidos .ContenedorPrincipal .cuerpo .DatosColumn ul {
           font-size: 12px;
-          margin-left: 30px;
-          margin-right: 20px; }
+          display: flex;
+          flex-direction: row; }
+          .cmp-pedidos .ContenedorPrincipal .cuerpo .DatosColumn ul .item {
+            margin-right: 76px;
+            margin-left: 22px;
+            margin-top: 10px;
+            width: 100%;
+            height: auto;
+            display: inline; }
+          .cmp-pedidos .ContenedorPrincipal .cuerpo .DatosColumn ul .itemEnd {
+            margin-left: 25px;
+            margin-top: 10px;
+            display: inline; }
           .cmp-pedidos .ContenedorPrincipal .cuerpo .DatosColumn ul li {
             margin-top: 20px;
-            margin-bottom: 15px; }
+            margin-bottom: 15px;
+            display: inline; }
+            .cmp-pedidos .ContenedorPrincipal .cuerpo .DatosColumn ul li div {
+              display: flex;
+              flex-direction: column; }

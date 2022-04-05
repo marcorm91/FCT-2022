@@ -1,3 +1,12 @@
+@media (max-width: 1000px) {
+  .cmp-title header {
+                                                             
+    flex-direction: column;
+                                                               
+    align-items: flex-start; }
+  .cmp-title .iconos {
+    width: 100%; } }
+
 .cmp-title header {
   box-sizing: border-box;
   background-color: #bcd042;
@@ -6,13 +15,14 @@
   justify-content: space-between;
   font-size: 20px;
   height: 50px;
-  margin-bottom: 12px; }
+  margin-bottom: 12px;
+  width: 100%; }
   .cmp-title header .buscador {
     display: flex;
     justify-content: space-between; }
     .cmp-title header .buscador .divbuscador {
       display: flex;
-      margin-left: 50px;
+      margin-left: 100px;
       height: 30px;
       background-color: #ffffff;
       opacity: 0.9; }
@@ -27,34 +37,39 @@
         margin-top: 3px;
         background-color: #ffffff;
         border: none;
+        outline: none;
         padding: 5px; }
-    .cmp-title header .buscador .iconmenu {
+  .cmp-title header .iconos {
+    background-color: #bcd042;
+    display: flex;
+    float: right; }
+    .cmp-title header .iconos .iconmenu {
       filter: invert(1);
       margin-right: 14px;
       margin-left: 10px;
       margin-bottom: 10px;
       width: 30px;
       height: 30px; }
-  .cmp-title header .redicon {
-    background: #ff533d;
-    padding: 7px;
-    box-sizing: border-box;
-    border-radius: 100%;
-    font-size: 10px;
-    font-weight: bold;
-    color: white; }
-    .cmp-title header .redicon.carrito {
-      position: absolute;
-      top: 5px;
-      right: 135px;
-      z-index: 100; }
-    .cmp-title header .redicon.campana {
-      position: absolute;
-      top: 5px;
-      right: 85px;
-      z-index: 100; }
-    .cmp-title header .redicon.sinNotificacion {
-      display: none; }
+    .cmp-title header .iconos .redicon {
+      background: #ff533d;
+      padding: 5px;
+      box-sizing: border-box;
+      border-radius: 100%;
+      font-size: 10px;
+      font-weight: bold;
+      color: white; }
+      .cmp-title header .iconos .redicon.carrito {
+        position: absolute;
+        top: 5px;
+        right: 125px;
+        z-index: 100; }
+      .cmp-title header .iconos .redicon.campana {
+        position: absolute;
+        top: 5px;
+        right: 80px;
+        z-index: 100; }
+      .cmp-title header .iconos .redicon.sinNotificacion {
+        display: none; }
   .cmp-title header img {
     margin-right: 20px;
     filter: invert(1);
