@@ -1,0 +1,134 @@
+@import "../../../_scss/variables/colors";
+
+
+.cmp-cardsicon{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-top: 10px;
+
+    h2{
+        font-family: 'OpenSans-Bold';
+    }
+
+    h3{
+        font-family: 'OpenSans-Regular';
+    }
+
+    .ContenedorPrincipal{
+        display: flex;
+        flex-direction: row;
+    
+
+
+    .Columna{
+        margin-right: 25px;
+    }
+    .contenedorCard{
+
+      
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        width: 300px;
+        height: 120px;
+        img{
+            width: 28px;
+            height: 21px;
+        }
+        .contenedorCardG{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 80%;
+         
+            img{
+                width: 44px;
+                height: 44px;
+                margin-top: 30px;
+                margin-left: 25px;
+                filter: invert(1)
+            }
+
+            h4{
+                font-size: 21px;
+                margin-top: 40px;
+                margin-left: 15px;
+                color: white;
+
+            }
+        }
+        .contenedorCardP{
+           
+            display: flex;
+            justify-content: flex-end;
+            height: 20%
+            ;
+            img{
+                filter: invert(1);
+                width: 20px;
+                margin-right: 10px;
+                
+            }
+        }
+        &.orangeCard{
+            .contenedorCardG{
+                background-color: map-get($colors,bida-lightorange);
+            }
+            .contenedorCardP{
+                background-color: map-get($colors,bida-darkorange);
+            }
+        }
+
+
+        &.blueCard{
+            .contenedorCardG{
+                background-color: map-get($colors,bida-skyblue);
+            }
+            .contenedorCardP{
+                background-color: map-get($colors,bida-darkskyblue);
+            }
+        
+        }
+
+        &.redCard{
+            .contenedorCardG{
+                background-color: map-get($colors,bida-crimson);
+            }
+            .contenedorCardP{
+                background-color: map-get($colors,bida-darkcrimson);
+            }
+        }
+
+        &.aquamarineCard{
+            .contenedorCardG{
+                background-color: map-get($colors,bida-aquamarine);
+            }
+            .contenedorCardP{
+                background-color: map-get($colors,bida-darkaquamarine);
+            }
+        }
+        &.yellowGCard{
+            .contenedorCardG{
+                
+                background-color: map-get($colors,bida-yellowgreen);
+            }
+            .contenedorCardP{
+                background-color: map-get($colors,bida-darkyellowgreen);            }
+        }
+
+        &.limeCard{
+            .contenedorCardG{
+                
+                background-color: map-get($colors,bida-lime);
+            }
+            .contenedorCardP{
+                background-color: map-get($colors,bida-darklime);           }
+        }
+
+
+    }
+    
+}
+  
+}
