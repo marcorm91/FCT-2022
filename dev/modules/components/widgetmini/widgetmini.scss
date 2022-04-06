@@ -1,0 +1,129 @@
+@import "../../../_scss/variables/colors";
+.contenedor-textowidget {
+    display: flex;
+    flex-direction: column;
+    .widget-mini {
+        font-weight: bold;
+        margin-bottom: 12px;
+    }
+}
+
+.cmp-minicards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px;
+    .minicards {
+        display: flex;
+        width: 293px;
+        height: 51px;
+        margin-top: 30px;
+        margin-bottom: 24px;
+        margin-right: 30px;
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 1px 0 rgba(0, 0, 0, 0.14);
+        &.lightorange {
+            background: map-get($colors, bida-lightorange);
+        }
+        &.skyblue {
+            background: map-get($colors, bida-skyblue);
+        }
+        &.aquamarine {
+            background: map-get($colors, bida-aquamarine);
+        }
+        &.yellowgreen {
+            background: map-get($colors, bida-yellowgreen);
+        }
+        &.crimson {
+            background: map-get($colors, bida-crimson);
+        }
+        &.lime {
+            background: map-get($colors, bida-lime);
+        }
+        .minicards-imagen {
+            display: flex;
+            overflow: hidden;
+            position: relative;
+            width: 91px;
+            align-items: center;
+            justify-content: center;
+            &.darkorange {
+                background: map-get($colors, bida-darkorange);
+            }
+            &.darkskyblue {
+                background: map-get($colors, bida-darkskyblue);
+            }
+            &.darkaquamarine {
+                background: map-get($colors, bida-darkaquamarine);
+            }
+            &.darkyellowgreen {
+                background: map-get($colors, bida-darkyellowgreen);
+            }
+            &.darkcrimson {
+                background: map-get($colors, bida-darkcrimson);
+            }
+            &.darklime {
+                background: map-get($colors, bida-darklime);
+            }
+            .configuracion {
+                width: 21px;
+                height: 21px;
+                margin-right: 20px;
+                filter: invert(1);
+            }
+        }
+        .minicards-texto {
+            display: flex;
+            font-family: "OpenSans";
+            width: 196px;
+            height: 43px;
+            align-items: center;
+            margin-top: 3px;
+            font-size: 16px;
+            color: map-get($colors, white);
+        }
+    }
+}
+
+.minicards-imagen:after {
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-origin: 100% -80%;
+    transform: skew(45deg);
+    z-index: 1;
+}
+
+.minicards {
+    &.lightorange {
+        .minicards-imagen:after {
+            background: map-get($colors, bida-lightorange);
+        }
+    }
+    &.skyblue {
+        .minicards-imagen:after {
+            background: map-get($colors, bida-skyblue);
+        }
+    }
+    &.aquamarine {
+        .minicards-imagen:after {
+            background: map-get($colors, bida-aquamarine);
+        }
+    }
+    &.yellowgreen {
+        .minicards-imagen:after {
+            background: map-get($colors, bida-yellowgreen);
+        }
+    }
+    &.crimson {
+        .minicards-imagen:after {
+            background: map-get($colors, bida-crimson);
+        }
+    }
+    &.lime {
+        .minicards-imagen:after {
+            background: map-get($colors, bida-lime);
+        }
+    }
+}
